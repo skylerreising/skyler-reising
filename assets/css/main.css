@@ -3680,6 +3680,9 @@ input, select, textarea {
 					margin: -3em 0 1.5em -1.5em;
 					width: calc(100% + 3em);
 				}
+			#main .mobileHidden{
+				display: none;
+			}
 
 		}
 
