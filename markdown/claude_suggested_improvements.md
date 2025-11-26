@@ -4,12 +4,9 @@ This document contains suggestions for improving the Skyler Reising portfolio we
 
 ## SEO & Discoverability
 
-1. **Add meta description** - Missing from index.html:9. Should be a compelling 150-160 character description for search engines
-2. **Add Open Graph tags** - For better social media sharing (Facebook, LinkedIn, Twitter/X)
-3. **Add favicon** - No favicon.ico or apple-touch-icon.png found
-4. **Create robots.txt** - Guide search engine crawlers
-5. **Create sitemap.xml** - Help search engines index your site
-6. **Add structured data** - Consider JSON-LD schema for Person/Professional profile
+1. **Create robots.txt** - Guide search engine crawlers
+2. **Create sitemap.xml** - Help search engines index your site
+3. **Add structured data** - Consider JSON-LD schema for Person/Professional profile
 
 ## Accessibility
 
@@ -69,11 +66,11 @@ This document contains suggestions for improving the Skyler Reising portfolio we
 
 If you want to tackle these incrementally, here's the suggested order:
 
-1. **Add favicon and meta tags** (quick wins for professionalism)
-2. **Clean up unused files and images**
-3. **Improve accessibility** (alt text, lang attribute)
-4. **Optimize images**
-5. **Add more project content**
+1. **Clean up unused files and images**
+2. **Improve accessibility** (alt text, lang attribute)
+3. **Optimize images**
+4. **Add more project content**
+5. **Create robots.txt and sitemap.xml**
 
 ## File References
 
