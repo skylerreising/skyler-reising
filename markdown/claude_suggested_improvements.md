@@ -1,0 +1,89 @@
+# Claude Suggested Improvements for Portfolio Website
+
+This document contains suggestions for improving the Skyler Reising portfolio website, generated on 2025-11-26.
+
+## SEO & Discoverability
+
+1. **Add meta description** - Missing from index.html:9. Should be a compelling 150-160 character description for search engines
+2. **Add Open Graph tags** - For better social media sharing (Facebook, LinkedIn, Twitter/X)
+3. **Add favicon** - No favicon.ico or apple-touch-icon.png found
+4. **Create robots.txt** - Guide search engine crawlers
+5. **Create sitemap.xml** - Help search engines index your site
+6. **Add structured data** - Consider JSON-LD schema for Person/Professional profile
+
+## Accessibility
+
+1. **Empty alt attributes** - index.html:23 and other images have `alt=""`. Should have descriptive text
+2. **Add lang attribute** - `<html>` tag should include `lang="en"`
+3. **Improve link context** - Multiple "Learn More" buttons all go to same GitHub URL (lines 51, 87, 130, 144)
+4. **Color contrast** - Review vibrant colors for WCAG AA compliance
+5. **Skip to main content link** - Would help keyboard/screen reader users
+
+## Performance
+
+1. **External Font Awesome CDN** - index.html:13 loads from external source. Consider self-hosting or using only needed icons
+2. **Image optimization** - Reising-Family-Fall-2020.jpg is 479KB. Could be compressed/optimized
+3. **Add defer/async to scripts** - Scripts at bottom are blocking (index.html:183-189)
+4. **Consider lazy loading** - For images below the fold
+
+## Code Cleanup
+
+1. **Remove duplicate image** - `images/headshot - Copy.jpg` should be deleted
+2. **Remove unused template files** - `elements.html` and `generic.html` aren't linked or used
+3. **Remove unused images** - `pic01.jpg` through `pic06.jpg` and `logo.svg` aren't referenced in index.html
+4. **Remove commented code** - Lines 115-120 and 153-159 in index.html
+5. **Filename with space** - "headshot - Copy.jpg" has spaces which can cause issues
+
+## Content Enhancements
+
+1. **Add more projects** - Only 3 projects shown; consider adding more or linking to detailed project pages
+2. **Add skills/tech stack section** - List technologies you work with (React, Node.js, etc.)
+3. **Add resume/CV download** - No way to download your resume
+4. **Expand project descriptions** - Current descriptions are very brief
+5. **Add blog section** - Optional, but could showcase technical writing
+
+## Functionality
+
+1. **Form for contact** - Currently only has email link; consider adding a contact form
+2. **Analytics** - No Google Analytics or similar tracking detected
+3. **Dark mode toggle** - Popular feature for developer portfolios
+4. **Loading states** - Consider adding skeleton screens or loading indicators
+
+## Modern Web Standards
+
+1. **Add manifest.json** - Enable "Add to Home Screen" on mobile
+2. **Consider PWA features** - Service worker for offline functionality
+3. **Security headers** - If deploying, add Content-Security-Policy, X-Frame-Options, etc.
+
+## Mobile Responsiveness
+
+1. **Test on actual devices** - The template should be responsive, but verify all content displays well
+2. **Mobile navigation** - Verify the hamburger menu works smoothly
+
+## Social Links
+
+1. **Update Twitter branding** - index.html:171 still says "Twitter" (now X)
+2. **Consider adding more platforms** - Stack Overflow, Dev.to, Medium if applicable
+
+## Priority Recommendations
+
+If you want to tackle these incrementally, here's the suggested order:
+
+1. **Add favicon and meta tags** (quick wins for professionalism)
+2. **Clean up unused files and images**
+3. **Improve accessibility** (alt text, lang attribute)
+4. **Optimize images**
+5. **Add more project content**
+
+## File References
+
+- Main page: `index.html`
+- Main stylesheet: `assets/css/main.css`
+- Main JavaScript: `assets/js/main.js`
+- Images directory: `images/`
+
+## Notes
+
+- The site uses the "Stellar" template by HTML5 UP
+- Current dependencies: jQuery, Font Awesome, custom scrolling libraries
+- The site appears to be a single-page application with smooth scrolling navigation
