@@ -21,14 +21,6 @@ This document contains suggestions for improving the Skyler Reising portfolio we
 3. **Add defer/async to scripts** - Scripts at bottom are blocking (index.html:183-189)
 4. **Consider lazy loading** - For images below the fold
 
-## Code Cleanup
-
-1. **Remove duplicate image** - `images/headshot - Copy.jpg` should be deleted
-2. **Remove unused template files** - `elements.html` and `generic.html` aren't linked or used
-3. **Remove unused images** - `pic01.jpg` through `pic06.jpg` and `logo.svg` aren't referenced in index.html
-4. **Remove commented code** - Lines 115-120 and 153-159 in index.html
-5. **Filename with space** - "headshot - Copy.jpg" has spaces which can cause issues
-
 ## Content Enhancements
 
 1. **Add more projects** - Only 3 projects shown; consider adding more or linking to detailed project pages
@@ -64,11 +56,9 @@ This document contains suggestions for improving the Skyler Reising portfolio we
 
 If you want to tackle these incrementally, here's the suggested order:
 
-1. **Clean up unused files and images**
-2. **Improve accessibility** (alt text, lang attribute)
-3. **Optimize images**
-4. **Add more project content**
-5. **Create robots.txt and sitemap.xml**
+1. **Improve accessibility** (alt text, lang attribute)
+2. **Optimize images**
+3. **Add more project content**
 
 ## File References
 
