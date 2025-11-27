@@ -1,0 +1,8 @@
+# robots.txt for Skyler Reising Portfolio
+# Allow all search engines to crawl the entire site
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://skylerreising.github.io/skyler-reising/sitemap.xml

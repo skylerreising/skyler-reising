@@ -4,9 +4,7 @@ This document contains suggestions for improving the Skyler Reising portfolio we
 
 ## SEO & Discoverability
 
-1. **Create robots.txt** - Guide search engine crawlers
-2. **Create sitemap.xml** - Help search engines index your site
-3. **Add structured data** - Consider JSON-LD schema for Person/Professional profile
+1. **Add structured data** - Consider JSON-LD schema for Person/Professional profile
 
 ## Accessibility
 
