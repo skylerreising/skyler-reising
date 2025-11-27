@@ -72,6 +72,25 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* Skip to main content link for accessibility */
+
+	.skip-to-main {
+		position: absolute;
+		left: -9999px;
+		z-index: 999;
+		padding: 1em;
+		background-color: #000;
+		color: #fff;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+	.skip-to-main:focus {
+		left: 50%;
+		transform: translateX(-50%);
+		top: 0;
+	}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -1957,7 +1976,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #8cc9f0;
+			background-color: #4A9FD8;
 			color: #ffffff !important;
 			box-shadow: none;
 		}
@@ -1967,7 +1986,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #9acff2;
+				background-color: #5AADE0;
 			}
 
 			input[type="submit"].primary:active,
@@ -1975,7 +1994,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #7ec3ee;
+				background-color: #3A8FC7;
 			}
 
 			input[type="submit"].primary.icon:before,
@@ -2313,7 +2332,7 @@ input, select, textarea {
 		}
 
 		.icon.style5 {
-			color: #8cc9f0;
+			color: #5AADE0;
 		}
 
 		@media screen and (max-width: 1680px) {
