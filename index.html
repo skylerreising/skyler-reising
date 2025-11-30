@@ -33,7 +33,7 @@
 		<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" />
 
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<script src="https://kit.fontawesome.com/1c947f936c.js" crossorigin="anonymous"></script>
+		<script src="https://kit.fontawesome.com/1c947f936c.js" crossorigin="anonymous" defer></script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -83,7 +83,10 @@
 									</div>
 									<div class="image-wrapper">
 										<span class="image">
-											<img id="reisingFamily" src="images/Reising-Family-Fall-2020.jpg" alt="Reising family photo" />
+											<picture>
+												<source srcset="images/Reising-Family-Fall-2020.webp" type="image/webp">
+												<img id="reisingFamily" src="images/Reising-Family-Fall-2020.jpg" alt="Reising family photo" loading="lazy" />
+											</picture>
 										</span>
 										<p id="family">My wife Kelli and I with our kids Liv and Cohen.</p>
 									</div>									
@@ -195,7 +198,7 @@
 										<span class="icon solid fa-code"></span>
 										<strong>3 kyu</strong>
 										<span>Codewars Rank</span>
-										<img src="https://www.codewars.com/users/skyler.reising/badges/micro" alt="Codewars 3 kyu rank badge">
+										<img src="https://www.codewars.com/users/skyler.reising/badges/micro" alt="Codewars 3 kyu rank badge" loading="lazy">
 									</li>
 									<li class="style2">
 										<span class="icon solid fa-building-flag"></span>
@@ -250,7 +253,7 @@
 								<dd><a href="mailto:skyler.reising@gmail.com?subject=Found%20You%20On%20Your%20Website">skyler.reising@gmail.com</a></dd>
 							</dl>
 							<ul class="icons">
-								<li><a href="https://twitter.com/SkylerReising" target="_blank" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
+								<li><a href="https://twitter.com/SkylerReising" target="_blank" class="icon brands fa-twitter alt"><span class="label">X (formerly Twitter)</span></a></li>
 								<li><a href="https://github.com/skylerreising" target="_blank" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
 								<li><a href="https://www.linkedin.com/in/skylerreising" target="_blank" class="icon brands fa-linkedin alt"><span class="label">Linkedin</span></a></li>
 							</ul>
@@ -262,13 +265,13 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<script src="assets/js/jquery.min.js" defer></script>
+			<script src="assets/js/jquery.scrollex.min.js" defer></script>
+			<script src="assets/js/jquery.scrolly.min.js" defer></script>
+			<script src="assets/js/browser.min.js" defer></script>
+			<script src="assets/js/breakpoints.min.js" defer></script>
+			<script src="assets/js/util.js" defer></script>
+			<script src="assets/js/main.js" defer></script>
 
 	</body>
 </html>

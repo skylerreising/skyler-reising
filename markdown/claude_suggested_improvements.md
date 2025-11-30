@@ -8,18 +8,14 @@ This document contains suggestions for improving the Skyler Reising portfolio we
 
 ## Performance
 
-1. **External Font Awesome CDN** - index.html:13 loads from external source. Consider self-hosting or using only needed icons
-2. **Image optimization** - Reising-Family-Fall-2020.jpg is 479KB. Could be compressed/optimized
-3. **Add defer/async to scripts** - Scripts at bottom are blocking (index.html:183-189)
-4. **Consider lazy loading** - For images below the fold
+1. **External Font Awesome CDN** - index.html:36 loads from external source. Consider self-hosting or using only needed icons if further optimization needed
 
 ## Content Enhancements
 
-1. **Add more projects** - Only 3 projects shown; consider adding more or linking to detailed project pages
-2. **Add skills/tech stack section** - List technologies you work with (React, Node.js, etc.)
-3. **Add resume/CV download** - No way to download your resume
-4. **Expand project descriptions** - Current descriptions are very brief
-5. **Add blog section** - Optional, but could showcase technical writing
+1. **Add more projects** - Currently showing 3 projects; consider adding more or linking to detailed project pages
+2. **Add resume/CV download** - No way to download your resume
+3. **Expand project descriptions** - Consider adding more detail to existing projects
+4. **Add blog section** - Optional, but could showcase technical writing
 
 ## Functionality
 
@@ -41,16 +37,15 @@ This document contains suggestions for improving the Skyler Reising portfolio we
 
 ## Social Links
 
-1. **Update Twitter branding** - index.html:171 still says "Twitter" (now X)
-2. **Consider adding more platforms** - Stack Overflow, Dev.to, Medium if applicable
+1. **Consider adding more platforms** - Stack Overflow, Dev.to, Medium if applicable
 
 ## Priority Recommendations
 
 If you want to tackle these incrementally, here's the suggested order:
 
-1. **Optimize images**
-2. **Add more project content**
-3. **Add structured data for SEO**
+1. **Add resume/CV download**
+2. **Add structured data for SEO**
+3. **Add more project content**
 
 ## File References
 
