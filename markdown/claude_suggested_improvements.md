@@ -6,14 +6,6 @@ This document contains suggestions for improving the Skyler Reising portfolio we
 
 1. **Add structured data** - Consider JSON-LD schema for Person/Professional profile
 
-## Accessibility
-
-1. **Empty alt attributes** - index.html:23 and other images have `alt=""`. Should have descriptive text
-2. **Add lang attribute** - `<html>` tag should include `lang="en"`
-3. **Improve link context** - Multiple "Learn More" buttons all go to same GitHub URL (lines 51, 87, 130, 144)
-4. **Color contrast** - Review vibrant colors for WCAG AA compliance
-5. **Skip to main content link** - Would help keyboard/screen reader users
-
 ## Performance
 
 1. **External Font Awesome CDN** - index.html:13 loads from external source. Consider self-hosting or using only needed icons
@@ -56,9 +48,9 @@ This document contains suggestions for improving the Skyler Reising portfolio we
 
 If you want to tackle these incrementally, here's the suggested order:
 
-1. **Improve accessibility** (alt text, lang attribute)
-2. **Optimize images**
-3. **Add more project content**
+1. **Optimize images**
+2. **Add more project content**
+3. **Add structured data for SEO**
 
 ## File References
 
